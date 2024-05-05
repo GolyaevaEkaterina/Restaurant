@@ -1,5 +1,9 @@
+
 .App {
   text-align: center;
+  box-sizing: border-box;
+  
+  font-family: Kanit;
 }
 
 .App-logo {
