@@ -31,8 +31,8 @@ const Items = ({items, setCartItems, cartItems, restaurants}) => {
         
         if(idRest !== item.restaurantId ){
         setIsOpenContainerDeleteCart(true)
-        const currentRest = restaurants.find((r) => item.restaurantId == r.id)
-        const previosRest = restaurants.find((r) => idRest == r.id)
+        const currentRest = restaurants.find((r) => item.restaurantId === r.id)
+        const previosRest = restaurants.find((r) => idRest === r.id)
         setNameRestСurrent(currentRest.name)
         setNameRestPrevious(previosRest.name)  
         } 

@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom"
 import { useEffect, useState } from "react"
 import Items from "components/Items"
 import './RestPage.css';
-import classNames from "classnames"
+
 import InfoContainer from "components/InfoContainer";
 // import {format} from "date-fns";
 const RestPage = ({setCartItems, cartItems, restaurants}) => {
