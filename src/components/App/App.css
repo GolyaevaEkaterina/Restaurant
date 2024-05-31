@@ -1,9 +1,10 @@
-
 .App {
   text-align: center;
   box-sizing: border-box;
-  
-  font-family: Kanit, Nunito Sans;
+
+  font-family:
+    Kanit,
+    Nunito Sans;
 }
 
 .App-logo {
