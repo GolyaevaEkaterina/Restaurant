@@ -1,0 +1,6 @@
+.container-order{
+    background-color: rgba(23, 23, 23, 0.329);
+}
+.input{
+    @apply pl-4 h-10 border-2 rounded-lg border-violet-950 text-violet-950
+}
